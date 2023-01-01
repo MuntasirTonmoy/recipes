@@ -337,3 +337,39 @@ nav {
     margin-left: auto;
   }
 }
+
+/*
+=============== 
+Page
+===============
+*/
+.page {
+  min-height: calc(100vh - (5rem + 2rem));
+  width: 90vw;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+/*
+=============== 
+Footer
+===============
+*/
+
+.page-footer {
+  background-color: #141233;
+  color: var(--grey-200);
+  font-size: 0.9rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-footer p {
+  margin: 0;
+}
+
+.page-footer .footer-logo,
+.dev {
+  color: var(--primary-400);
+}
