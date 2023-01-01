@@ -471,6 +471,37 @@ recipes
   gap: 2rem 1rem;
   padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 572px) {
+  .recipes-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recipe img {
+    height: 10rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .recipes-container {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .recipe p {
+    font-size: 1rem;
+  }
+  .tags-list {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .recipes-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .recipe h5 {
+    font-size: 1.15rem;
+  }
+}
 /*
 =============== 
 Footer
