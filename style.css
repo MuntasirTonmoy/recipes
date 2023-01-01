@@ -427,7 +427,7 @@ recipes
   margin-bottom: 0.5rem;
   font-weight: 500;
   text-decoration: underline;
-  text-underline-offset: 1vh;
+  text-underline-offset: 3px;
 }
 
 .tags-list {
