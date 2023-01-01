@@ -426,11 +426,50 @@ recipes
 .tags-container h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 1vh;
 }
 
 .tags-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags-list a {
+  margin-right: 1.5rem;
+  color: var(--grey-500);
+  transition: var(--transition);
+}
+
+.tags-list a:hover {
+  color: var(--primary-500);
+}
+
+.recipe {
+  display: block;
+}
+
+.recipe img {
+  height: 15rem;
+  border-radius: var(--borderRadius);
+  object-fit: cover;
+}
+.recipe h5 {
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
+  color: var(--grey-700);
+}
+
+.recipe p {
+  margin-bottom: 0.3rem;
+  color: var(--grey-500);
+  letter-spacing: var(--letterSpacing);
+}
+
+.recipes-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 1rem;
+  padding-bottom: 1rem;
 }
 /*
 =============== 
