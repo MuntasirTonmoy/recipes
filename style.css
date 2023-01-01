@@ -397,6 +397,9 @@ Hero
   text-align: center;
 }
 
+.hero__text h1 {
+  margin-bottom: 0.3rem;
+}
 .hero__text p {
   font-size: 1.4rem;
   margin: 0;
@@ -407,6 +410,27 @@ Hero
     font-size: 2rem;
     margin: 0;
   }
+}
+
+/*
+=============== 
+recipes
+===============
+*/
+
+.recipes-container {
+  display: grid;
+  gap: 2rem 1rem;
+}
+
+.tags-container h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.tags-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 /*
 =============== 
