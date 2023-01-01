@@ -272,14 +272,9 @@ nav {
   max-width: var(--max-width);
 }
 .nav-header {
-  height: 4rem;
+  height: 5rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.nav-logo {
-  display: flex;
   align-items: center;
 }
 
@@ -305,6 +300,40 @@ nav {
   padding: 0.5rem 0;
 }
 
+.nav-link:hover {
+  color: var(--primary-600);
+}
+
 .nav-link:not(:last-child) {
   border-bottom: 1px solid #000;
+}
+
+/*============= PC =========*/
+@media only screen and (min-width: 992px) {
+  .nav-center {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .nav-links {
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding: 0;
+    margin-left: 0.8rem;
+  }
+  .nav-link:not(:last-child) {
+    border-bottom: none;
+  }
+  .contact-link {
+    margin-left: auto;
+  }
 }
