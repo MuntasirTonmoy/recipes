@@ -96,23 +96,23 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 3.052rem;
+  font-size: 2.2rem;
 }
 
 h2 {
-  font-size: 2.441rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.563rem;
+  font-size: 1.3rem;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 small,
@@ -310,6 +310,26 @@ nav {
 
 /*============= PC =========*/
 @media only screen and (min-width: 992px) {
+  h1 {
+    margin-top: 0;
+    font-size: 3.052rem;
+  }
+
+  h2 {
+    font-size: 2.441rem;
+  }
+
+  h3 {
+    font-size: 1.953rem;
+  }
+
+  h4 {
+    font-size: 1.563rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
   .nav-center {
     height: 5rem;
     display: flex;
@@ -348,6 +368,45 @@ Page
   width: 90vw;
   max-width: 1120px;
   margin: 0 auto;
+}
+
+/*
+=============== 
+Hero
+===============
+*/
+.hero {
+  height: 40vh;
+
+  background: url("assets/main.jpeg") center/cover no-repeat;
+  border-radius: var(--borderRadius);
+  margin-bottom: 2rem;
+}
+
+.hero__container {
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: var(--borderRadius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__text {
+  color: var(--white);
+  text-align: center;
+}
+
+.hero__text p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero__text p {
+    font-size: 2rem;
+    margin: 0;
+  }
 }
 /*
 =============== 
