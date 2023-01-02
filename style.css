@@ -654,6 +654,37 @@ recipes
     align-items: center;
   }
 }
+
+.recipe-info {
+  display: grid;
+  padding: 3rem 0;
+  gap: 2rem 5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .recipe-info {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.single-instruction header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.single-instruction header p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--primary-500);
+  margin-bottom: 0;
+}
+
+.single-instruction header div {
+  height: 1.5px;
+  background-color: var(--grey-300);
+}
 /*
 =============== 
 Footer
