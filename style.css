@@ -447,6 +447,24 @@ Hero
   }
 }
 
+/* contact */
+.contact-container {
+  display: grid;
+  gap: 2rem 2rem;
+  padding: 2rem 0 3rem 0;
+}
+
+.contact-form {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-container {
+    grid-template-columns: 1fr 450px;
+  }
+}
+
 /*
 =============== 
 recipes
