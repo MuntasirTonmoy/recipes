@@ -616,6 +616,22 @@ recipes
 .recipe-content p {
   color: var(--grey-600);
 }
+
+.recipe-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.recipe-icons h5 {
+  margin-bottom: 0.3rem;
+}
+
+.recipe-icons i {
+  font-size: 1.5rem;
+  color: var(--primary-500);
+}
 /*
 =============== 
 Footer
