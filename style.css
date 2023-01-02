@@ -597,6 +597,25 @@ recipes
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* single recipe page */
+.recipe-hero {
+  display: grid;
+  gap: 3rem;
+}
+
+.recipe-hero img {
+  height: 300px;
+  padding-bottom: 2rem;
+  border-radius: var(--borderRadius);
+}
+
+.recipe-content h2 {
+  margin-bottom: 0.5rem;
+}
+.recipe-content p {
+  color: var(--grey-600);
+}
 /*
 =============== 
 Footer
