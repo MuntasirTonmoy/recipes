@@ -413,8 +413,38 @@ Hero
 }
 
 /* about */
+
+.about-page h2 {
+  text-transform: none;
+  font-weight: bold;
+}
+
+.about-page {
+  display: grid;
+  gap: 2rem 2rem;
+  padding: 2rem 0 3rem 0;
+}
+
+.about-page img {
+  height: 300px;
+  border-radius: var(--borderRadius);
+  object-fit: cover;
+}
+
 .featured-recipes {
   text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .about-page {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+    align-items: center;
+  }
+
+  .about-page img {
+    height: 100%;
+  }
 }
 
 /*
