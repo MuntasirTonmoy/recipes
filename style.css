@@ -108,7 +108,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 h5 {
@@ -324,11 +324,11 @@ nav {
   }
 
   h4 {
-    font-size: 1.563rem;
+    font-size: 1.3rem;
   }
 
   h5 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   .nav-center {
     height: 5rem;
@@ -410,6 +410,11 @@ Hero
     font-size: 2rem;
     margin: 0;
   }
+}
+
+/* about */
+.featured-recipes {
+  text-align: center;
 }
 
 /*
