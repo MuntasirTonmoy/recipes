@@ -606,7 +606,6 @@ recipes
 
 .recipe-hero img {
   height: 300px;
-  padding-bottom: 2rem;
   border-radius: var(--borderRadius);
 }
 
@@ -631,6 +630,29 @@ recipes
 .recipe-icons i {
   font-size: 1.5rem;
   color: var(--primary-500);
+}
+
+.recipe-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.recipe-tags a {
+  background-color: var(--primary-500);
+  color: var(--white);
+  border-radius: var(--borderRadius);
+  padding: 0.1rem 0.5rem;
+  margin: 0 0.15rem;
+}
+
+@media screen and (min-width: 992px) {
+  .recipe-hero {
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+  }
 }
 /*
 =============== 
