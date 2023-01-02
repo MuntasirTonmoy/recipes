@@ -556,6 +556,25 @@ recipes
     font-size: 1.15rem;
   }
 }
+
+/* tags-page */
+.tags-wrapper {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.tag {
+  background-color: var(--grey-500);
+  border-radius: var(--borderRadius);
+  text-align: center;
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.tag:hover {
+  background-color: var(--primary-500);
+}
 /*
 =============== 
 Footer
