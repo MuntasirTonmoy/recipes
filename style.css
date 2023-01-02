@@ -272,7 +272,7 @@ nav {
   max-width: var(--max-width);
 }
 .nav-header {
-  height: 5rem;
+  height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -296,7 +296,7 @@ nav {
 .nav-link {
   display: block;
   text-align: center;
-  color: var(--grey-900);
+  color: var(--grey-800);
   padding: 0.5rem 0;
 }
 
@@ -331,7 +331,7 @@ nav {
     font-size: 1.15rem;
   }
   .nav-center {
-    height: 5rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -348,7 +348,7 @@ nav {
 
   .nav-link {
     padding: 0;
-    margin-left: 0.8rem;
+    margin-left: 0.9rem;
   }
   .nav-link:not(:last-child) {
     border-bottom: none;
@@ -364,7 +364,7 @@ Page
 ===============
 */
 .page {
-  min-height: calc(100vh - (5rem + 2rem));
+  min-height: calc(100vh - (6rem + 2rem));
   width: 90vw;
   max-width: 1120px;
   margin: 0 auto;
@@ -439,7 +439,7 @@ Hero
   .about-page {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 400px;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .about-page img {
@@ -522,7 +522,7 @@ recipes
   }
 
   .recipe p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .tags-list {
     flex-direction: column;
